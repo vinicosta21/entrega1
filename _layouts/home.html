@@ -2,19 +2,6 @@
 layout: default
 ---
 
-
-<main>
-    <h1 class="home_titulo">Bem vindo!</h1>
-    
-    <header>
-        <h2>Posts:</h2>
-    </header>
-    <section class="lista_artigos">
-        <ul>
-            {% for post in site.posts %}
-                <li><a href="{{post.url | relative_url}}">{{post.title}}</a></li>
-            {% endfor %}
-        </ul>
-    </section>
-</main>
-        
+<section id="home_titulo">
+    <h1>Bem vindo!</h1>
+</section>
