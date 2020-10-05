@@ -2,7 +2,7 @@
 layout: post
 title:  "Lorem Ipsum"
 date:   2020-09-26 22:00:35 -0300
-categories: jekyll update
+categories: Teste
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi perferendis eligendi, non dicta, quam, veritatis neque adipisci pariatur facere quod doloribus tempore minus asperiores soluta ut dolor alias iste molestiae eius! Maiores modi autem eligendi, tempora ullam nihil aut sequi a, unde sit nulla laudantium accusamus quisquam voluptates facilis eos repellendus? Eaque libero saepe necessitatibus voluptate iste? Culpa eos veniam possimus.
