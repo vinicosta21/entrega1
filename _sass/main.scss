@@ -84,9 +84,9 @@ main {
     margin: 0px 30px;
 }
 
-
 section#home_titulo {
     margin: 0px 15px;
+    text-align: center;
 }
 
 section#home_titulo>h1 {
@@ -94,13 +94,20 @@ section#home_titulo>h1 {
     font-size: 40px;
 }
 
-.artigo {
-    width: calc(100% - 30px);
+@media screen and (orientation: portrait){
+    .artigo {
+        width: calc(100% - 30px);
+    }
+}
+
+@media screen and (orientation: landscape){
+    .artigo {
+        width: 55%;
+    }
 }
 
 article {
     margin: 0px 15px;
-
 }
 
 article h1 {
@@ -115,15 +122,4 @@ article p {
 
 article footer p {
     font-size: 15px;
-}
-
-
-.highlight pre {
-    word-break: break-all;
-    word-wrap: break-word;
-    width: 500px;
-}
-
-#home_titulo {
-    text-align: center;
 }
