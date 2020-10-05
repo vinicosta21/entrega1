@@ -17,6 +17,7 @@
     
     <nav id="barra">
         <ul>
+            <li><a href="{{'./' | relative_url}}">Home</a></li>
             <li><a href="#">Posts</a>
                 <ul>
                     {% for post in site.posts %}
@@ -24,7 +25,6 @@
                     {% endfor %}
                 </ul>
             </li>
-            <li><a href="#">Nav 2</a></li>
             <li><a href="#">Nav 3</a></li>
             <li><a href="#">Nav 4</a></li>
         </ul>
